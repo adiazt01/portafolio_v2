@@ -9,7 +9,7 @@ export const Projects = () => {
           My projects
         </h3>
       </div>
-      <div className="grid grid-cols-1 mt-11 gap-8 pb-8 border border-zinc-900">
+      <div className="grid grid-cols-1 mt-11 py-8 gap-8 border border-zinc-900">
         {projectData.map((project, i) => {
           return (
             <div

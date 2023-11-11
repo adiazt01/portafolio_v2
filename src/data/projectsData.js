@@ -1,0 +1,65 @@
+export const projectData = [
+  {
+    title: "Drum machine",
+    description: "Drum machine with 9 different sounds, volume control and power button. Made with React.",
+    gitLink: "https://github.com/adiazt01/drumMachine-app",
+    liveLink: "https://adiazt01.github.io/drumMachine-app/",
+    imgUrl: "/img_projects/machine_sound.webp",
+  },
+  {
+    title: "Calculator",
+    description: "Calculator with basic operations. Made with React.",
+    gitLink: "https://github.com/adiazt01/calculadora",
+    liveLink: "https://adiazt01.github.io/calculadora/",
+    imgUrl: "/img_projects/calculator.webp",
+  },
+  {
+    title: "Markdown preview",
+    description: "Editor and previewer of markdown text",
+    gitLink: "https://github.com/adiazt01/markdown-preview",
+    liveLink: "https://adiazt01.github.io/markdown-preview/",
+    imgUrl: "/img_projects/markdown_preview.webp",
+  },
+  {
+    title: "Pomodoro",
+    description: "View and control a timer with 25 minutes of work and 5 minutes of rest. Made with React.",
+    gitLink: "https://github.com/adiazt01/testTimer-app",
+    liveLink: "https://adiazt01.github.io/testTimer-app/",
+    imgUrl: "/img_projects/pomodoro.webp",
+  },
+  {
+    title: "Viewing bar graphs",
+    description: "Viewing bar graphs with D3.js",
+    gitLink: "https://codepen.io/adiazt01/pen/VwqPQje?editors=1010",
+    liveLink: "https://codepen.io/adiazt01/pen/VwqPQje?editors=1010",
+    imgUrl: "/img_projects/data_1.webp",
+  },
+  {
+    title: "Doping in Professional Bicycle Racing",
+    description: "Doping in Professional Bicycle Racing with D3.js",
+    gitLink: "https://codepen.io/adiazt01/pen/ExGZEaK?editors=1010",
+    liveLink: "https://codepen.io/adiazt01/pen/ExGZEaK?editors=1010",
+    imgUrl: "/img_projects/data_2.webp",
+  },
+  {
+    title: "Monthly Global Land-Surface Temperature",
+    description: "Monthly Global Land-Surface Temperature with D3.js",
+    gitLink: "https://codepen.io/adiazt01/pen/VwqPXPy",
+    liveLink: "https://codepen.io/adiazt01/pen/VwqPXPy",
+    imgUrl: "/img_projects/data_3.webp",
+  },
+  {
+    title: "US County Education Choropleth Map",
+    description: "US County Education Choropleth Map with D3.js",
+    gitLink: "https://codepen.io/adiazt01/pen/BavprKG",
+    liveLink: "https://codepen.io/adiazt01/pen/BavprKG",
+    imgUrl: "/img_projects/data_4.webp",
+  },
+  {
+    title: "Visualize Data with a Treemap Diagram",
+    description: "Visualize Data with a Treemap Diagram with D3.js",
+    gitLink: "https://codepen.io/adiazt01/pen/NWedyjY",
+    liveLink: "https://codepen.io/adiazt01/pen/NWedyjY",
+    imgUrl: "/img_projects/data_5.webp",
+  }
+];

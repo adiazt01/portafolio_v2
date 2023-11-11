@@ -1,4 +1,17 @@
-import { BiLogoBootstrap, BiLogoCss3, BiLogoHtml5, BiLogoJavascript, BiLogoMongodb, BiLogoNodejs, BiLogoPostgresql, BiLogoPython, BiLogoReact, BiLogoRedux, BiLogoTailwindCss, BiLogoTypescript } from "react-icons/bi";
+import {
+  BiLogoBootstrap,
+  BiLogoCss3,
+  BiLogoHtml5,
+  BiLogoJavascript,
+  BiLogoMongodb,
+  BiLogoNodejs,
+  BiLogoPostgresql,
+  BiLogoPython,
+  BiLogoReact,
+  BiLogoRedux,
+  BiLogoTailwindCss,
+  BiLogoTypescript,
+} from "react-icons/bi";
 
 const technologies = [
   {
@@ -32,13 +45,11 @@ const technologies = [
   {
     name: "Typescript",
     icon: <BiLogoTypescript />,
-  }
-  ,
+  },
   {
     name: "MongoDB",
     icon: <BiLogoMongodb />,
-  }
-  ,
+  },
   {
     name: "PostgreSQL",
     icon: <BiLogoPostgresql />,
@@ -50,23 +61,31 @@ const technologies = [
   {
     name: "Bootstrap",
     icon: <BiLogoBootstrap />,
-  }
+  },
 ];
 
 export const Technologies = () => {
   return (
-    <section className="grid border border-zinc-900 pb-8">
-      <div className="row-span-1">
+    <section className="grid border border-zinc-900">
+      <div className="row-span-1 mt-8 border-t border-t-zinc-900">
         <h3 className="text-zinc-200 text-3xl mt-8 font-medium tracking-tighter text-center">
           My technologies
         </h3>
       </div>
-      <div className="grid mt-8 grid-cols-2  w-full">
+      <div className="grid mt-8 mb-8 grid-cols-2  w-full">
         {technologies.map((technology, index) => (
-          <div key={index} className="border border-zinc-900 py-2 flex flex-col  items-center justify-center">
+          <div
+            key={index}
+            className="border border-zinc-900 py-2 flex flex-col  items-center justify-center"
+          >
             <div className="text-zinc-50 text-7xl">{technology.icon}</div>
           </div>
         ))}
+      </div>
+      <div className="row-span-1 flex flex-col justify-center border border-zinc-900 h-56">
+        <p className="text-gray-100 text-4xl tracking-tighter text-center px-3 font-medium">
+          There&apos;s so much
+        </p>
       </div>
     </section>
   );

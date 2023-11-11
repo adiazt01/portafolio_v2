@@ -4,7 +4,6 @@ import {
   BiLogoGithub,
   BiLogoGmail,
   BiLogoLinkedin,
-  BiTime,
 } from "react-icons/bi";
 
 const linksSocial = [

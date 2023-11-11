@@ -20,8 +20,8 @@ export const Hero = () => {
   return (
     <>
       <section className="grid border border-zinc-900 grid-rows-2 h-auto">
-        <div className="row-span-1 h-[50vh] mt-4 flex border border-zinc-900 bg-gradient-to-b from-transparent from-60% via-black to-emerald-950 justify-center items-center flex-col">
-          <h2 className="text-4xl text-gray-200 tracking-tighter text-center font-medium">
+        <div className="row-span-1 h-[50vh] mt-4 flex border border-zinc-900 bg-gradient-to-b from-transparent from-60% via-black to-indigo-950 justify-center items-center flex-col">
+          <h2 className="text-4xl text-indigo-500 tracking-tighter text-center font-medium">
             Armando Diaz
           </h2>
           <h3 className="text-2xl -mt-1 text-center tracking-tighter text-gray-400">
@@ -31,7 +31,7 @@ export const Hero = () => {
             <ul className="flex justify-center gap-2">
               {linksSocial.map((link, i) => (
                 <li key={i} className="mx-2">
-                  <a href="" className="text-3xl text-gray-300">
+                  <a href="" className="text-3xl text-indigo-500">
                     {link.icon}
                   </a>
                 </li>
@@ -40,8 +40,9 @@ export const Hero = () => {
           </div>
         </div>
         <div className="grid h-[42vh] auto-rows-min grid-cols-1 gap-4 mt-4 border border-zinc-900">
-          <div className="col-span-1 text-zinc-300 mx-4 font-medium tracking-tight mt-4 text-sm">
-            <p>
+          <div className="col-span-1  mx-4 tracking-tight mt-4 text-sm">
+            <p className="text-indigo-500 font-medium">Full Stack developer</p>
+            <p className="text-zinc-400">
               Specializing in building awesome, expert and exceptional apps web.
               Currently, I am focused on exploring different back end
               environments to improve my versatility as a programmer.
@@ -57,7 +58,7 @@ export const Hero = () => {
               </a>
               <a
                 href=""
-                className="px-4 py-1 rounded-2xl border-2 border-blue-500 text-zinc-100"
+                className="px-4 py-1 rounded-2xl font-medium tracking-tight border-2 border-indigo-500 text-zinc-100"
               >
                 Projects
               </a>

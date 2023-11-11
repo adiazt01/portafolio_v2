@@ -19,8 +19,8 @@ const linksSocial = [
 export const Hero = () => {
   return (
     <>
-      <section className="grid border border-zinc-900 grid-rows-2 h-auto">
-        <div className="row-span-1 h-[50vh] mt-4 flex border border-zinc-900 bg-gradient-to-b from-transparent from-60% via-black to-indigo-950 justify-center items-center flex-col">
+      <section className="grid border border-zinc-900 mt-4 grid-rows-2 h-auto">
+        <div className="row-span-1 h-[43vh] flex border border-zinc-900 bg-gradient-to-b from-transparent from-60% via-black to-indigo-950 justify-center items-center flex-col">
           <h2 className="text-4xl text-indigo-500 tracking-tighter text-center font-medium">
             Armando Diaz
           </h2>
@@ -48,8 +48,8 @@ export const Hero = () => {
               environments to improve my versatility as a programmer.
             </p>
           </div>
-          <div className="col-span-1 flex flex-col align-middle justify-center border-t border-t-zinc-900 text-gray-400 pt-11">
-            <div className="flex w-full flex-row justify-around">
+          <div className="col-span-1 flex flex-col justify-center items-center border-t h-24 border-t-zinc-900 text-gray-400">
+            <div className="flex my-auto w-full flex-row justify-around">
               <a
                 href=""
                 className="px-4  flex flex-row items-center gap-2 bg-zinc-100 py-1 rounded-2xl text-black tracking-tighter font-medium"

@@ -1,6 +1,6 @@
 export const FullWidthLayout = ({ children }) => {
     return (
-        <main className="flex h-screen bg-black flex-col px-2">
+        <main className="flex h-auto bg-black flex-col px-2">
             {children}
         </main>
     )

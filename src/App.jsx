@@ -1,4 +1,6 @@
-import { FullWidthLayout } from "./components/layouts/FullWidthLayout";
+import { FullContainerLayout } from "./components/layouts/FullContainerLayout";
+import { MediumContainerLayout } from "./components/layouts/MediumContainerLayout";
+import { Footer } from "./components/sections/Footer";
 import { Hero } from "./components/sections/Hero";
 import { Projects } from "./components/sections/Projects";
 import { Technologies } from "./components/sections/Technologies";
@@ -6,11 +8,14 @@ import { Technologies } from "./components/sections/Technologies";
 function App() {
   return (
     <>
-      <FullWidthLayout>
+      <MediumContainerLayout>
         <Hero />
         <Technologies />
-        <Projects/>
-      </FullWidthLayout>
+        <Projects />
+      </MediumContainerLayout>
+      <FullContainerLayout>
+        <Footer />
+      </FullContainerLayout>
     </>
   );
 }

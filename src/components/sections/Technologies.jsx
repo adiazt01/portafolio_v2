@@ -12,6 +12,9 @@ import {
   BiLogoTailwindCss,
   BiLogoTypescript,
 } from "react-icons/bi";
+import "../../styles/gradients/textGradients.css"
+import "../../styles/hovers/iconHover.css"
+import ".././../styles/hovers/backgroundGradients.css"
 
 const technologies = [
   {
@@ -68,7 +71,7 @@ export const Technologies = () => {
   return (
     <section className="grid border border-zinc-900">
       <div className="row-span-1 mt-8 border-t border-t-zinc-900">
-        <h3 className="text-zinc-200 text-3xl mt-8 font-medium tracking-tighter text-center">
+        <h3 className="text-zinc-200 text-3xl mt-8 font-medium tracking-tighter text-center text-gradient-orange">
           My technologies
         </h3>
       </div>
@@ -76,9 +79,9 @@ export const Technologies = () => {
         {technologies.map((technology, index) => (
           <div
             key={index}
-            className="border border-zinc-900 py-2 flex flex-col  items-center justify-center"
+            className="border techCell hover:bg-orange-950 hover:bg-opacity-20 transition duration-400 hover:border-orange-600  border-zinc-900 py-2 flex flex-col items-center justify-center"
           >
-            <div className="text-zinc-50 text-7xl">{technology.icon}</div>
+            <div className="text-zinc-50 text-7xl z-10 tech-icon">{technology.icon}</div>
           </div>
         ))}
       </div>

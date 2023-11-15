@@ -69,7 +69,7 @@ const technologies = [
 
 export const Technologies = () => {
   return (
-    <section className="grid border border-zinc-900">
+    <section className="grid">
       <div className="row-span-1 mt-8 border-t border-t-zinc-900">
         <h3 className="text-zinc-200 text-3xl mt-8 font-medium tracking-tighter text-center text-gradient-orange">
           My technologies

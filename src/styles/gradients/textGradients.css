@@ -1,7 +1,7 @@
 .text-gradient-orange {
     background: linear-gradient(270deg, rgb(255, 128, 0), rgb(255, 210, 128), rgb(255, 128, 0));
-    background-size: 600% 600%;
-    -webkit-background-clip: text;
+    background-size: 600% 700%;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: gradient 10s ease infinite;
 }

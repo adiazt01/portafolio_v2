@@ -12,7 +12,11 @@ function App() {
     <Navbar/>
       <MediumContainerLayout>
         <Hero />
+      </MediumContainerLayout>
+      <FullContainerLayout>
         <Technologies />
+      </FullContainerLayout>
+      <MediumContainerLayout>
         <Projects />
       </MediumContainerLayout>
       <FullContainerLayout>

@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root{ 
+   scroll-padding: 60px; 
+   scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+    background: #f1f1f1;
+  }
+  
+  /* Agrega un "margen" alrededor de la barra de desplazamiento cambiando el color de fondo del track */
+  ::-webkit-scrollbar-track {
+    background: #0c0c0c;
+  }
+  
+  /* Establece el color de la barra de desplazamiento a oscuro */
+  ::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 20px;
+  }

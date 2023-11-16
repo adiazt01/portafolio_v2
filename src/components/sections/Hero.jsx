@@ -25,15 +25,15 @@ const linksSocial = [
 export const Hero = () => {
   return (
     <>
-      <section className="grid h-min mt-12 md:mt-14">
+      <section id="About" className="grid h-min mt-12 md:mt-14">
         <div className=" row-span-1 flex border-2 border-purple-950 rounded-lg md:rounded-t-lg md:rounded-b-none bg-gradient-to-b from-transparent from-40% via-purple-950 to-purple-900 justify-center items-center flex-col h-80 md:h-96 lg:h-[30rem] shadow-md shadow-purple-950">
           <h2 className="text-4xl md:text-6xl lg:text-8xl text-purple-500 tracking-tighter text-center font-medium">
             Armando Díaz
           </h2>
-          <h3 className="text-2xl md:text-3xl lg:text-4xl -mt-1 text-center tracking-tighter text-zinc-200">
+          <p className="text-2xl md:text-3xl lg:text-4xl -mt-1 text-center tracking-tighter text-zinc-200">
             What do you want to build?{" "}
             <BiBuilding className="inline-block align-text-bottom mr-2 mb-1" />
-          </h3>
+          </p>
           <div className="mt-3 md:mt-5 px-4 py-1 border-white border-2 rounded-3xl bg-black">
             <ul className="flex justify-center gap-2">
               {linksSocial.map((link, i) => (
@@ -83,7 +83,7 @@ export const Hero = () => {
           <div className="border-dashed border-purple-600 border-2 h-16"></div>
         </div>
         <div className="flex flex-col justify-center border border-purple-950 h-56 rounded-2xl bg-gradient-to-b from-transparent from-50% via-purple-950 to-purple-900 shadow-md shadow-purple-950">
-          <p className="text-gray-100 text-4xl tracking-tighter text-center px-3 font-medium">
+          <p className="text-gray-100 md:text-4xl text-3xl tracking-tighter text-center px-3 font-medium">
             <span className="text-purple-500">{"<"}</span> Building solutions{" "}
             <BiMouse className="inline-block align-text-bottom mb-0.5" />, one
             stack at a time{" "}

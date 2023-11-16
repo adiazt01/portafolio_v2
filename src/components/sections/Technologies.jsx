@@ -1,4 +1,5 @@
 import {
+  BiBrain,
   BiLogoBootstrap,
   BiLogoCss3,
   BiLogoHtml5,
@@ -11,8 +12,8 @@ import {
   BiLogoRedux,
   BiLogoTailwindCss,
   BiLogoTypescript,
-  BiSolidBatteryCharging,
   BiSolidKeyboard,
+  BiWorld,
 } from "react-icons/bi";
 import "../../styles/gradients/textGradients.css";
 import "../../styles/hovers/iconHover.css";
@@ -71,9 +72,9 @@ const technologies = [
 
 export const Technologies = () => {
   return (
-    <section className="grid mt-16">
+    <section id="Technologies" className="grid mt-16">
       <div className="row-span-1 mt-8 mx-3 md:mx-12 lg:mx-24 h-auto lg:h-32 py-8 border rounded-xl border-orange-900 shadow-orange-950 shadow-lg flex flex-col items-center justify-center bg-gradient-to-b from-transparent to-orange-950">
-        <p className="text-gray-100 w-full text-3xl lg:text-5xl tracking-tighter text-center px-0 lg:px-10 font-medium ">
+        <p className="text-gray-100 w-full text-2xl md:text-3xl lg:text-5xl tracking-tighter text-center px-0 lg:px-10 font-medium ">
           Technologies we use{" "}
           <BiSolidKeyboard className="inline-block align-text-bottom mb-0" />
         </p>
@@ -93,14 +94,22 @@ export const Technologies = () => {
           </div>
         ))}
       </div>
+      <div className="flex flex-col justify-center mt-1 mb-1 items-center">
+        <div className="border-dashed border-orange-700 border-2 h-16"></div>
+      </div>
+      <div className="flex mx-3 md:mx-12 lg:mx-24 flex-col justify-center items-center border border-orange-950 py-4 rounded-2xl bg-gradient-to-b from-transparent h-auto md:h-36 from-50% via-orange-950 to-orange-900 shadow-md shadow-orange-950">
+        <p className="text-gray-100 text-2xl md:text-3xl tracking-tighter text-center px-3 font-medium">
+          <span className="text-orange-500">{"< "}</span>
+          There so many technologies out there{" "}
+          <BiWorld className="inline-block align-text-bottom mb-0.5" />, but we
+          are always learning new ones to improve our skills{" "}
+          <BiBrain className="inline-block align-text-bottom mb-0.5" />
+          <span className="text-orange-500">{" />"}</span>
+        </p>
+      </div>
       <div className="flex flex-col justify-center mt-1 items-center">
         <div className="border-dashed border-orange-700 border-2 h-16"></div>
         <div className="bg-orange-600 h-4 w-4 mt-1 shadow-lg shadow-orange-500"></div>
-      </div>
-      <div className="row-span-1 flex flex-col justify-center border border-zinc-900 h-56">
-        <p className="text-gray-100 text-4xl tracking-tighter text-center px-3 font-medium">
-          There&apos;s so much
-        </p>
       </div>
     </section>
   );
